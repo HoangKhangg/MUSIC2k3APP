@@ -79,15 +79,15 @@ const Index = ({
 						))}
 					</View>
 					<Animatable.View style={styles.bottom} animation={active ? 'slideInUp' : 'slideOutDown'} duration={2000}>
-						<TouchableOpacity style={styles.bottomBtn} activeOpacity={0.7} onPress={bottomBtn?.onPress}>
-							<Text style={styles.bottomBtnTxt}>{bottomBtn?.text}</Text>
-						</TouchableOpacity>
-						<Animatable.View animation="pulse" easing="ease-out" iterationCount="infinite">
-							<TouchableOpacity style={styles.bottomBtn} activeOpacity={0.7} onPress={() => Linking.openURL('https://ko-fi.com/jsxclan')}>
-								<Text style={styles.bottomBtnTxt}>Buy me a coffee ☕</Text>
-							</TouchableOpacity>
+						{/* <TouchableOpacity style={styles.bottomBtn} activeOpacity={0.7} onPress={bottomBtn?.onPress}> */}
+							{/* <Text style={styles.bottomBtnTxt}>{bottomBtn?.text}</Text> */}
+						{/* </TouchableOpacity> */}
+						{/* <Animatable.View animation="pulse" easing="ease-out" iterationCount="infinite"> */}
+							{/* <TouchableOpacity style={styles.bottomBtn} activeOpacity={0.7} onPress={() => Linking.openURL('https://ko-fi.com/jsxclan')}> */}
+								{/* <Text style={styles.bottomBtnTxt}>Buy me a coffee ☕</Text> */}
+							{/* </TouchableOpacity> */}
 						</Animatable.View>
-					</Animatable.View>
+					{/* </Animatable.View> */}
 				</View>
 
 				<View style={styles.screenBackDrop} />
